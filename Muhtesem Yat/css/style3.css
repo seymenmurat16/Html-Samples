@@ -1,0 +1,231 @@
+a:hover {
+  text-decoration: none;
+  -webkit-animation: color 1s linear;
+  -moz-animation: color 1s linear;
+  animation: color 1s linear;
+}
+
+#nav {
+  background-color: rgba(138, 145, 166, 0.7);
+  height: 100px;
+  overflow: hidden;
+  z-index: 5;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  border-bottom: 1px solid black;
+}
+#nav #logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+  margin: 25px 0;
+  background-image: url(../images/logo.png);
+  width: 100px;
+  transition: 300ms;
+}
+#nav #logo:hover {
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 500px) {
+  #nav #logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
+#nav #menu {
+  padding-top: 27px;
+}
+#nav #menu .menu2 {
+  list-style: none;
+}
+#nav #menu .menu2 li {
+  margin: 10px 0;
+  padding: 0 10px;
+  display: inline-block;
+}
+#nav #menu .menu2 li a {
+  color: #102969;
+  padding-right: 10px;
+}
+#nav #menu .menu2 li a:hover {
+  -webkit-transition: color 300ms linear;
+  -moz-transition: color 300ms linear;
+  transition: color 300ms linear;
+  color: #1EBA9C;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#nav .phone {
+  background: #000;
+  color: white;
+  border-radius: 100px;
+  padding: 2px 20px 2px 20px;
+  margin: 28px 0 0 20px;
+  height: 30px;
+  max-width: 185px;
+}
+
+.phone2 {
+  display: none;
+}
+
+.item {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  width: 80px;
+  height: 80px;
+  outline: none;
+}
+
+.owl-carousel {
+  margin: 0;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+  border-radius: 0;
+  text-align: center;
+}
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 400px;
+}
+
+.container p a {
+  color: #b63327;
+}
+.container p a:hover {
+  -webkit-transition: color 500ms linear;
+  -moz-transition: color 500ms linear;
+  transition: color 500ms linear;
+  color: #000;
+}
+
+.card {
+  transition: 300ms;
+  width: 100%;
+  border: 1px solid #102969;
+  outline: none;
+  border-radius: 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.card img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.up {
+  margin-top: 150px;
+}
+
+.up2 {
+  margin-top: 120px;
+}
+
+.slicknav_menu {
+  background-color: #102969;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1120px) {
+  .phone {
+    display: inline-flex;
+    font-size: 13px;
+    padding: 15px 0;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  #menu {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+}
+@media only screen and (min-width: 806px) and (max-width: 960px) {
+  .phone a {
+    display: inline-flex;
+    font-size: 13px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .phone i {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 806px) {
+  #nav {
+    display: none;
+  }
+
+  .phone2 {
+    display: inline-block;
+  }
+
+  .up {
+    margin-top: 20px;
+  }
+
+  .up2 {
+    margin-top: 20px;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    position: absolute;
+    top: 260px;
+    height: 30px;
+    margin: auto !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    width: 20px;
+    height: 20px;
+    outline: none;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    position: absolute;
+    top: 100px;
+    height: 30px;
+    margin: auto !important;
+  }
+}
+.owl-carousel .owl-prev {
+  float: left;
+  left: 20px;
+}
+
+.owl-carousel .owl-next {
+  right: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  .slicknav_menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style3.css.map */

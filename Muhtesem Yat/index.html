@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Muhteşem Yachting</title>
+    <link rel="stylesheet" href="libraries/bs/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/bs/slicknav.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="libraries/OwlCarousel2-2.3.3/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link href="css/style3.css" rel="stylesheet">
+    <script src="libraries/bs/jquery-3.3.1.min.js"></script>
+    <script src="libraries/bs/jquery.slicknav.min.js"></script>
+    <script src="libraries/OwlCarousel2-2.3.3/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+  
+  
+   <div class="container-fluid">
+      <div  id="nav" class="row">
+          <div class="col-md-1 col-xl-2">
+          </div>
+          <div class="col-md-1 col-xl-2">
+              <a href="index.html"><div id="logo"></div></a>
+          </div>
+          <div class="col-md-7 col-xl-5">
+          <div id="menu" class="nav1">
+               <ul class="menu2" class=" ">
+                    <li>
+                        <a href="index.html"><b>MAIN PAGE</b></a>
+                    </li>
+                    <li>
+                        <a href="gallery.html"><b>GALLERY</b></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><b>ABOUT US</b></a>
+                    </li>
+                    <li>
+                        <a href="yatchTurkey.html"><b>YACHT CHARTER TURKEY</b></a>
+                    </li>
+                    <li>
+                        
+                        <a href="tel:+90-532-261-7577" style="color:white" class="phone2"><i class="fas fa-phone" style="padding-right: 5px"></i><b>+905322617577</b></a>
+                    </li>
+                </ul>
+          </div>
+          </div>
+          <div class="col-xl-2 col-md-2 phone">
+             	
+             <a href="tel:+90-532-261-7577" style="color:white"><i class="fas fa-phone" style="padding-right: 5px"></i><b>+905322617577</b></a>
+			
+          </div>
+          <div class="col-xl-1 col-md-1"></div>
+      </div>
+      
+      <div class="row">
+         <div id="sec1" class="col-md-12 col-sm-12 pl-0 pr-0">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="images/DJI_0059-5.27.43-PM-1024x768.jpg"></div>
+                <div class="item"><img src="images/DJI_0084-1024x768.jpg"></div>
+                <div class="item"><img src="images/DJI_0086-1024x768.jpg"></div>
+                <div class="item"><img src="images/DJI_0091-1024x768.jpg"></div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="container mb-5" >
+          <p><a href="yatchFethiye.html">Yacht Charter Fethiye</a></p><br>
+          <p><a href="yatchBodrum.html">Yacht Charter Bodrum</a></p><br>
+          <p><a href="yatchMarmaris.html">Yacht Charter Marmaris</a></p><br>
+          <p>Yacht Charter in The Aegean and The Mediterranean have so much to offer, with their beautiful coastline where the clean turquoise waters meet, is the paradise of Yacht Charter route. The Aegean and The Mediterranean coasts boast wonderful scenery, splendid beaches and coves for a truly serene for yacht charter vacation.</p>
+          <p>Not only is the weather perfectly suited with its long summer sunshine, the coastline is a real spectacle with beautiful gulfs and peninsulas, you will see and be able to explore historic ruins combined with pretty crystal sheltered coves and green forestry.</p>
+          <p>Chartering a yacht in Turkey provides to yachtsmen can enjoy the light afternoon breezes offer the opportunity to open the sails also provides giving sheltered overnight anchorages, with swimming, walking, biking and even golfing options.</p>
+          <p>Turkey holds a reputation as a beautiful, very attractive surrounded by four seas with immaculate waters; it’s one of the most popular yacht charter destinations in the World.</p>
+          <p>Along the coastline featured the most established marinas at Kusadasi, Bodrum, Marmaris, Gocek, Fethiye, Finike, Antalya and more.</p>
+          <p>All these marinas well equipped with latest technology providing high standard facilities and services for yachting sector in Turkey.</p>
+          <p>Muhtesem Yachting offer a whole range of yachts and gulets, simply select the yacht and itinerary and we will take care of all arrangements.</p>
+          <p>We look forward to hearing from you</p>
+          <p>Muhtesem Yachting team</p>
+
+    </div>
+    </div>   
+    
+    <script>
+        $(function(){
+             $('.menu2').slicknav({
+                closeOnClick:true
+              });
+        });
+    </script>
+    
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            responsiveClass:true,
+            loop: true,
+            autoplay : true,
+            navText: ["<i class='fas fa-arrow-circle-left fa-2x' style='color:white'></i>","<i class='fa fa-arrow-circle-right fa-2x' style='color:white'></i>"],
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                }
+            }
+        })
+    </script>
+    
+    <script>
+        
+        
+        function boyutlandirHele() { 
+
+            // Pencere değerlerini alıyoruz
+              var winheight = $(window).height(); // pencere yüksekliği
+
+            // Aldığımız değerleri .container'a dinamik olarak atıyoruz 
+              $("#sec1 img").css({'max-height': winheight}); 
+
+        }
+        
+              $(document).ready(function(){  
+          boyutlandirHele();    
+        });
+        
+    </script>
+   
+    
+</body>
+</html>

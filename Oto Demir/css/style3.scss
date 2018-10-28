@@ -1,0 +1,315 @@
+
+$footer-bgcolor:#E6E6E6;
+$main-color:#194A97;
+$btn-color:#176FA1;
+$phone: "only screen and (max-width : 500px)";
+$tablet: "only screen and (max-width : 800px)";
+
+
+//------------------nav-------------------//
+
+a:hover{
+    text-decoration:none;
+}
+
+#nav{
+    background-color: white;
+    
+    #logo{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding:45px 0;
+        margin: 45px 0;
+        background-image: url(../images/logo.PNG);
+        width: 250px;
+        transition: 1s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    @media #{$phone} {
+        #logo{
+             display: block;
+             margin: 0 auto;
+        }
+    }
+    
+    #menu{
+        padding-top: 65px;
+        .menu2{
+            list-style: none;
+            font-size: 10px;
+            font-size: 20px;
+            li{
+                display: inline-block;
+                transition: 1s;
+                
+                &:hover{
+                    transform: scale(1.2);
+                }
+                a{
+                    color: $main-color;
+                    padding-right: 10px;
+                    transition: 1s;
+                    
+                    &:hover{
+                        color:deepskyblue;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+    .nav2{
+        text-align: right;
+    }
+    
+    #bayi{
+        padding-top: 65px;
+        
+        .btn-group{
+            margin-left: -20px;
+            
+            .btn{
+                border: 2px solid $btn-color;
+                transition: 1s;
+                
+                &:hover{
+                    border: 2px solid $btn-color;
+                    background-color: $btn-color;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    
+
+
+
+
+
+
+//----------------------row-1-----------------------//
+
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+.item{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+//----------------------row-2-----------------------//
+
+#sec2{
+    background-color: $footer-bgcolor;
+    text-align: center;
+    ul{
+        a{
+            padding-right: 10px;
+        }
+    }
+    
+    .item-group{
+        display: block;
+        margin: 0 auto;
+        a{
+            transition: 1s;
+            &:hover{
+              transform: scale(1.2);
+            }
+        }
+        
+        .circle-icon2 {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap:wrap;
+            
+            .circle-icon {
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items: center;
+                background: white;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                padding: 20px;
+                margin:5px;
+            }
+        }
+    }
+}
+
+
+
+//----------------------row-3-----------------------//
+
+#sec3{
+    text-align: center;
+    color:$btn-color;
+    font-size: 16px;
+    
+    #car{
+        width: 100%;
+        
+        .par3{
+            padding: 20px 150px;
+        }
+        @media #{$tablet} {
+            .par3{
+                padding: 5px 5px;
+            } 
+        }
+    }
+}
+
+#icon-sec{
+    color:$main-color;
+    padding-top: 40px;
+    
+    .par4{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    
+    .par5{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    .button {
+        background-color: $main-color;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        display: block;
+        margin: 0 30%;
+        transition: 1s;
+        &:hover{
+            background-color: skyblue;
+            color: $main-color;
+            transform: scale(1.1);
+            border-radius: 50%;
+        }
+    }
+}
+ @media #{$tablet} {
+        #icon-sec{
+            padding-top: 5px;
+            .par4{
+                font-size: 15px;
+                padding-bottom: 5px;
+            }
+            .par5{
+                padding-bottom: 5px;
+            }
+            .button {
+                background-color: $main-color;
+                border: none;
+                width:100px;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 12px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+
+
+//----------------------row-4-----------------------//
+
+
+
+.kutucuk{
+    padding: 5px;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.05);
+    }
+    
+    .kutu{
+        width: 100%;
+        border: 1px solid lightgray;
+        margin: 0;
+        img{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    .kutu2{
+        width: 100%;
+        height: 130px;
+        border: 1px solid lightgray;
+        border-top: 0px;
+        margin: 0;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color:$main-color;
+        font-weight: 600;
+    }
+    
+}
+
+//----------------------footer-----------------------//
+
+#footer{
+    background-color: $footer-bgcolor;
+    color:$main-color;
+    font-weight: 500;
+}
+
+.slicknav_menu {
+        background-color: $main-color;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .slicknav_menu {
+        display:none;
+    }
+}

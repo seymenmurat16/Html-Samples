@@ -1,0 +1,257 @@
+@charset "UTF-8";
+body {
+  font-size: 15px;
+}
+
+#socials {
+  background-color: #FBFBFB;
+}
+#socials li a {
+  color: #777171;
+  transition: 1s;
+}
+#socials li a:hover {
+  color: deepskyblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#nav #logo img {
+  width: 220px;
+  margin-top: 5px;
+}
+#nav #menu {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+#nav #menu .menu2 {
+  list-style: none;
+}
+#nav #menu .menu2 li {
+  display: inline-block;
+  transition: 1s;
+}
+#nav #menu .menu2 li a {
+  color: #777171;
+  padding-right: 20px;
+  transition: 1s;
+}
+#nav #menu .menu2 li a:hover {
+  color: deepskyblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.item {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  width: 80px;
+  height: 80px;
+  outline: none;
+}
+
+.owl-carousel {
+  margin: 0;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+  border-radius: 0;
+  text-align: center;
+}
+
+hr.line-orange-center {
+  border: 0;
+  height: 4px;
+  background-color: deepskyblue;
+  width: 66px;
+  margin-bottom: 50px;
+}
+
+.baslık {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: #353131;
+  margin-top: 50px;
+  padding-right: 25px;
+}
+
+.altbaslık {
+  font-weight: 500;
+  font-size: 20px;
+  color: #353131;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.altbilgi {
+  padding-left: 20px;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 90px;
+}
+
+.devam {
+  color: blue;
+  text-align: right;
+}
+.devam a:hover {
+  color: deepskyblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#sec2 {
+  margin-bottom: 10px;
+}
+
+.videolar {
+  background-color: deepskyblue;
+  margin-bottom: 10px;
+}
+
+.vertical-text {
+  transform: rotate(270deg);
+  transform-origin: righttop 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 90px;
+}
+
+.text {
+  display: none;
+  color: white;
+  padding: 10px 0px;
+}
+
+.footer {
+  background-color: #364658;
+  color: #FBFBFB;
+  padding: 15px 0;
+}
+
+.slicknav_menu {
+  background-color: deepskyblue;
+}
+
+@media only screen and (min-width: 800px) {
+  .slicknav_menu {
+    display: none;
+  }
+
+  .altmargin {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .altmargin {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 806px) {
+  #nav {
+    display: none;
+  }
+
+  .baslık {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .videolar {
+    background-color: deepskyblue;
+    margin-bottom: 95px;
+  }
+
+  .vertical-text {
+    transform: rotate(270deg);
+    transform-origin: righttop 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 120px;
+  }
+
+  .smedia {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #logo img {
+    width: auto;
+  }
+
+  .text {
+    display: block;
+  }
+
+  #socials {
+    text-align: center;
+  }
+
+  .devam {
+    margin-bottom: 10px;
+  }
+
+  .baslık {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .vertical-text {
+    display: none;
+  }
+
+  .videolar {
+    margin-bottom: 0px;
+  }
+
+  .altresim {
+    margin-left: -10px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  hr.line-orange-center {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .smedia {
+    margin-top: 60px;
+    padding-bottom: 100px;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #logo img {
+    width: 220px;
+    margin-left: 100px;
+  }
+
+  .smedia {
+    padding-bottom: 200px;
+    margin-bottom: 80px;
+  }
+
+  #sec2 {
+    margin-bottom: 60px;
+  }
+
+  .videolar {
+    background-color: deepskyblue;
+    margin-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
